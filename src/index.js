@@ -23,7 +23,7 @@ app.set('views', path.join(__dirname, 'resources/views')); //Thay đổi đườ
 //Định nghĩa chương trình app sẽ ghi log dạng tiêu chuẩn
 app.use(morgan('combined'));
 
-route(app);
+            route(app);
 
 app.listen(port, () => {
     console.log(`Example app listening on port ${port}`);
